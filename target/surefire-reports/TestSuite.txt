@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 14.192 s <<< FAILURE! - in TestSuite
+testDiv(myTestNgTest.MyFirstTest)  Time elapsed: 0.47 s  <<< FAILURE!
+java.lang.AssertionError: expected [3] but found [4]
+	at myTestNgTest.MyFirstTest.testDiv(MyFirstTest.java:38)
+
+testSum(myTestNgTest.MyFirstTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Failed expected [10] but found [9]
+	at myTestNgTest.MyFirstTest.testSum(MyFirstTest.java:31)
+
+createNewUserTest(myTestNgTest.TestUser)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at myTestNgTest.TestUser.createNewUserTest(TestUser.java:11)
+

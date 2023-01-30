@@ -1,0 +1,1 @@
+{"uuid":"6254249a-4a80-4a34-9bdd-9b875624bd91","name":"myTestNgTest.MyFirstTest.setUp","children":["25203431-a4d9-4577-aa00-8186229811b7"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1673347896394,"stop":1673347896394}],"afters":[],"start":1673347896394,"stop":1673347896394}

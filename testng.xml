@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite" parallel="classes" thread-count="3">
+    <test verbose="2" preserve-order="true" name="C:/Users/���/IdeaProjects/TAF_Fall2022">
+        <classes>
+            <class name="practice2.Cat.Demo1">
+                <methods>
+                    <include name="testSumFunction"/>
+                    <exclude name="testDivideExceptionFunction"/>
+                </methods>
+            </class>
+            <class name="myTestNgTest.Demo2">
+                <methods>
+                    <include name="testSortedArrayFunction"/>
+                    <include name="testSortedArrayFunction1"/>
+                </methods>
+            </class>
+            <class name="myTestNgTest.MyMethods">
+                <methods>
+                    <include name="testMakeSumFunction"/>
+                </methods>
+            </class>
+            <class name="myTestNgTest.Calculator">
+                <methods>
+                    <include name="testSum"/>
+                </methods>
+            </class>
+            <class name="myTestNgTest.MyFirstTest">
+                <methods>
+                    <include name="testSum"/>
+                    <include name="testDiv"/>
+                    <include name="testMul"/>
+                    <include name="testDif"/>
+                </methods>
+            </class>
+            <class name="myTestNgTest.TestDataProvider">
+                <methods>
+                    <include name="myTest"/>
+                </methods>
+            </class>
+            <class name="myTestNgTest.TestDemo">
+                <methods>
+                    <include name="testFoodTitle"/>
+                    <include name="testPharmacyTitle"/>
+                    <include name="testShops"/>
+                </methods>
+            </class>
+            <class name="myTestNgTest.TestUser">
+                <methods>
+                    <include name="createNewUserTest"/>
+                    <include name="checkCreateUser"/>
+                    <include name="test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

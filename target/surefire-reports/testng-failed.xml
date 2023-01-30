@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="myTestNgTest.MyFirstTest">
+        <methods>
+          <include name="openBrowse"/>
+          <include name="testSum"/>
+          <include name="testDiv"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- myTestNgTest.MyFirstTest -->
+      <class name="myTestNgTest.TestUser">
+        <methods>
+          <include name="createNewUserTest"/>
+          <include name="checkCreateUser"/>
+        </methods>
+      </class> <!-- myTestNgTest.TestUser -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
